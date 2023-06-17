@@ -12,11 +12,11 @@ def perform_sentiment_analysis(text, model, vectorizer):
 
 def main():
     # Load the pickled sentiment analysis model
-    with open('C:/Users/adhit/OneDrive/Desktop/dhiwahar_k/Dhiwahar K Adhithya/College/YEAR 3/NLP/CA 4/moviereviews.pkl', 'rb') as file:
+    with open('moviereviews.pkl', 'rb') as file:
         model = pickle.load(file)
 
     # Load the pickled vectorizer
-    with open('C:/Users/adhit/OneDrive/Desktop/dhiwahar_k/Dhiwahar K Adhithya/College/YEAR 3/NLP/CA 4/vectorizer.pkl', 'rb') as file:
+    with open('vectorizer.pkl', 'rb') as file:
         vectorizer = pickle.load(file)
 
     # Set the title and a brief description
