@@ -100,9 +100,7 @@ pip install tensorflow pandas scikit-learn datasets transformers
 
 ## Example Prediction
 sentence = ["ghatiya insaan ho tum!!"]
-# Preprocess + tokenize + pad
 output = model.predict(sentence)
-# Threshold = 0.5 → Output: FAKE (1) or REAL (0)
 
 ## License
 This project is open-source and intended for educational and research purposes.
