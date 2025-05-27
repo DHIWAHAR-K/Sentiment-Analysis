@@ -100,6 +100,7 @@ pip install tensorflow pandas scikit-learn datasets transformers
 
 ## Example Prediction
 sentence = ["ghatiya insaan ho tum!!"]
+
 output = model.predict(sentence)
 
 ## License
