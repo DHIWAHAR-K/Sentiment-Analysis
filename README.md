@@ -1,6 +1,6 @@
 # Sentiment Analysis
 
-This project implements a **complex deep learning model** using **stacked Bidirectional LSTM layers** for **sentiment classification** of multilingual tweets. The dataset combines labeled tweets from three major political parties in India and focuses on analyzing sentiment in the `in` (Hindi/Indic) language.
+This project implements a **complex deep learning model** using **stacked Bidirectional LSTM layers** for **sentiment classification** of multilingual tweets. 
 
 ---
 
@@ -24,7 +24,7 @@ This project implements a **complex deep learning model** using **stacked Bidire
 - `PPP_predicted_tweets.csv`
 - `PTI_predicted_tweets.csv`
 
-> All datasets are filtered for the `in` language and non-null preprocessed tweets.
+> All datasets are filtered for the given language and non-null preprocessed tweets.
 
 ---
 
