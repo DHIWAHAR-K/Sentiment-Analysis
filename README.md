@@ -4,7 +4,7 @@ This project implements a **complex deep learning model** using **stacked Bidire
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 | File/Step                | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ Stops training if validation accuracy does not improve after 3 epochs.
 
 ---
 
-## 🧾 How to Run
+## How to Run
 
 1. **Prepare Dataset**: Place the three `.csv` files in the appropriate path.
 2. **Run Script**:
